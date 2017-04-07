@@ -8,4 +8,4 @@ RUN chmod 0755 /usr/local/bin/unoconv
 
 EXPOSE 2002
 
-CMD ["/usr/local/bin/unoconv --listener"]
+CMD ["/usr/local/bin/unoconv", "--listener"]
